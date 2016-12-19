@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xiaoshuai.percentview.MainActivity">
+
+   <com.example.xiaoshuai.percentview.PercentView
+       android:layout_width="300dp"
+       android:layout_height="300dp"
+       android:layout_centerInParent="true"
+       app:color_win="#ff0000"
+       app:color_dogfall="#00ff00"
+       app:color_lose="#0000ff"
+       app:win_percent="33"
+       app:lose_percent="33"
+       app:dogfall_percent="34"
+       app:is_startAnimator="true"
+       />
+</RelativeLayout>

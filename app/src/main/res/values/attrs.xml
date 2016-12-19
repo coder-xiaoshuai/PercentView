@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PercentView">
+        <attr name="color_win" format="color"/>
+        <attr name="color_lose" format="color"/>
+        <attr name="color_dogfall" format="color"/>
+        <attr name="win_percent" format="float"/>
+        <attr name="lose_percent" format="float"/>
+        <attr name="dogfall_percent" format="float"/>
+        <attr name="is_startAnimator" format="boolean"/>
+    </declare-styleable>
+</resources>
