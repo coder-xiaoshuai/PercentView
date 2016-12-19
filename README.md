@@ -6,8 +6,10 @@
 ![效果图](http://img.blog.csdn.net/20161219143015670?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzMyMDg2OA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
  
  使用方法和普通的view是一样的，如下：
- 
- <com.example.xiaoshuai.percentview.PercentView
+  
+
+```
+  <com.example.xiaoshuai.percentview.PercentView
        android:layout_width="300dp"
        android:layout_height="300dp"
        android:layout_centerInParent="true"
@@ -18,7 +20,9 @@
        app:lose_percent="30"
        app:dogfall_percent="50"
        app:is_startAnimator="true"
-       />
-       
+       />  
+```
+
  自定义属性上面都使用了，而且比较简单，就不做介绍了，感兴趣的话，可以看一下代码。
  欢迎大家指教
+
