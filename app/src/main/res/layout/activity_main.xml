@@ -14,9 +14,9 @@
        app:color_win="#ff0000"
        app:color_dogfall="#00ff00"
        app:color_lose="#0000ff"
-       app:win_percent="33"
-       app:lose_percent="33"
-       app:dogfall_percent="34"
+       app:win_percent="20"
+       app:lose_percent="30"
+       app:dogfall_percent="50"
        app:is_startAnimator="true"
        />
 </RelativeLayout>
