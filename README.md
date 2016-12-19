@@ -19,5 +19,6 @@
        app:dogfall_percent="50"
        app:is_startAnimator="true"
        />
+       
  自定义属性上面都使用了，而且比较简单，就不做介绍了，感兴趣的话，可以看一下代码。
  欢迎大家指教
