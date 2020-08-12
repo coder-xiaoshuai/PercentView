@@ -7,16 +7,16 @@
     android:layout_height="match_parent"
     tools:context="com.example.xiaoshuai.percentview.MainActivity">
 
-   <com.example.xiaoshuai.percentview.PercentView
+   <com.example.xiaoshuai.percentview.WinRateView
        android:layout_width="300dp"
        android:layout_height="300dp"
        android:layout_centerInParent="true"
        app:color_win="#ff0000"
-       app:color_dogfall="#00ff00"
+       app:color_tie="#00ff00"
        app:color_lose="#0000ff"
        app:win_percent="20"
        app:lose_percent="30"
-       app:dogfall_percent="50"
+       app:tie_percent="50"
        app:is_startAnimator="true"
        />
 </RelativeLayout>
