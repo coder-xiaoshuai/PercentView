@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/item_rate_win"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/rect_rate_win"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/text_rate_win"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="胜率20%" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_rate_tie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/rect_rate_tie"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/text_rate_tie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="胜率20%" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/item_rate_lose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/rect_rate_lose"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/text_rate_lose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="胜率20%" />
+    </LinearLayout>
+
+</LinearLayout>
